@@ -1,0 +1,670 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gaurav/ontologies/2019/4/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/gaurav/ontologies/2019/4/untitled-ontology-33"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:job-ontology="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#"
+     xmlns:untitled-ontology-33="http://www.semanticweb.org/gaurav/ontologies/2019/4/untitled-ontology-33#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#hasAveragePay -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#hasAveragePay"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#isNearTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#isNearTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#isUsedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#isUsedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#requiresEducation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#requiresEducation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#requiresExperience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#requiresExperience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#similarTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#similarTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Education"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#AWS_Developer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#AWS_Developer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#100000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#3+"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Alphretta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Alphretta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Angular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Angular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Angular_JS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Angular_JS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlantic_City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlantic_City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Buckhed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Buckhed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Middleware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C-sharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C-sharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Engineer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#100000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#3+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cupertino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cupertino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Database -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Database">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Entry_Level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Entry_Level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Full_Stack_Developer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Full_Stack_Developer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#IOT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#IOT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Java">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Web_Services"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Jersey_City -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Jersey_City">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Manager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Manager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#120000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#5+"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Solutions_Architect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Mariata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Mariata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Atlanta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Middleware -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Middleware">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Mountain_View -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Mountain_View">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#NodeJS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#NodeJS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Web_Services"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Oracle_R12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Oracle_R12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Database"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#PHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#PHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Palo_Alto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Palo_Alto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#PhD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#PhD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Education"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Web_Services"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#ReactJS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#ReactJS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Front_End"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#80000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Entry_Level"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_1"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Development_Engineer"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#100000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#3+"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sr_Software_Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Development_Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Development_Engineer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Engineer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#80000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Bachelors"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Entry_Level"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Engineer_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Engineer_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Software_Developer_2"/>
+        <job-ontology:similarTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sr_Software_Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Solutions_Architect -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Solutions_Architect">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#110000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#PhD"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#4+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sr_Software_Engineer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sr_Software_Engineer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Position"/>
+        <job-ontology:hasAveragePay rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#130000"/>
+        <job-ontology:requiresEducation rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Masters"/>
+        <job-ontology:requiresExperience rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#5+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sunnyvale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Sunnyvale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Location"/>
+        <job-ontology:isNearTo rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#San_Francisco"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Web_Services -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Web_Services">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Techonlogy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#1+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#1+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#100000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#100000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#110000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#110000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#120000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#120000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#130000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#130000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#2+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#200000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#200000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#3+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#3+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#4+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#4+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#5+ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#5+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Experience"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#80000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#80000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#90000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Salary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C++ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#C++">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Programming_Lang"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Back_End"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Cloud_Computing"/>
+        <job-ontology:isUsedIn rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2019/4/job-ontology#Middleware"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

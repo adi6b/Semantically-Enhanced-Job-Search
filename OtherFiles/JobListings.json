@@ -1,0 +1,129 @@
+[
+  {
+		"companyName": "NCR",
+		"position": "Software_Engineer",
+		"salary": 80000,
+		"startDate": "2019-07-23",
+		"location": "Atlanta",
+		"progLang": ["Java", "C++"],
+		"technologies": ["Web_Services", "Back_End"]
+	},
+	{
+		"companyName": "SunPharma",
+		"position": "Software_Engineer_2",
+		"salary": 82000,
+		"startDate": "2019-08-23",
+		"location": "Buckhed",
+		"progLang": ["Java", "C-sharp"],
+		"technologies": ["Web_Services", "Back_End"]
+	},
+  {
+    "companyName": "CVent",
+		"position": "Software_Engineer",
+		"salary": 75000,
+		"startDate": "2019-08-08",
+		"location": "Alphretta",
+		"progLang": ["Java", "C"],
+		"technologies": ["Web_Services", "Back_End","Front_End"]
+  },
+  {
+    "companyName": "OneTrust",
+		"position": "Sr_Software_Engineer",
+		"salary": 80000,
+		"startDate": "2019-07-08",
+		"location": "Atlanta",
+		"progLang": ["Java", "C","NodeJS"],
+		"technologies": ["Web_Services", "Back_End", "Front_End"]
+  },
+  {
+    "companyName": "OneTrust",
+    "position": "Full_Stack_Developer",
+    "salary": 90000,
+    "startDate": "2019-07-08",
+    "location": "Atlanta",
+    "progLang": ["Java", "C","NodeJS"],
+    "technologies": ["Web_Services", "Back_End", "Front_End"]
+  },
+  {
+    "companyName": "JP Morgan",
+    "position": "Full_Stack_Developer",
+    "salary": 100000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["Angular","NodeJS"],
+    "technologies": ["Web_Services", "Back_End", "Front_End"]
+  },
+  {
+    "companyName": "JP Morgan",
+    "position": "Cloud_Engineer",
+    "salary": 100000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["C","NodeJS"],
+    "technologies": ["Cloud_Computing", "IOT", "Web_Services"]
+  },
+  {
+    "companyName": "JP Morgan",
+    "position": "Manager",
+    "salary": 120000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["Angular","NodeJS"],
+    "technologies": ["Web_Services", "Back_End", "Front_End"]
+  },
+  {
+    "companyName": "Morgan Stanley",
+    "position": "Software_Developer_2",
+    "salary": 100000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["Java","C"],
+    "technologies": ["Web_Services", "Back_End"]
+  },
+  {
+    "companyName": "Morgan Stanley",
+    "position": "Software_Developer_1",
+    "salary": 100000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["Java","C"],
+    "technologies": ["Web_Services", "Back_End"]
+  },
+  {
+    "companyName": "Morgan Stanley",
+    "position": "Software_Development_Engineer",
+    "salary": 120000,
+    "startDate": "2019-06-20",
+    "location": "New_York",
+    "progLang": ["Java","C","Python"],
+    "technologies": ["Web_Services", "Back_End","IOT"]
+  },
+  {
+    "companyName": "IBM",
+    "position": "Software_Developer_2",
+    "salary": 110000,
+    "startDate": "2019-08-20",
+    "location": "New_York",
+    "progLang": ["Java","C","Python","Angular"],
+    "technologies": ["Web_Services", "Back_End","Front_End"]
+  },
+  {
+    "companyName": "IBM",
+    "position": "Software_Developer_1",
+    "salary": 90000,
+    "startDate": "2019-07-20",
+    "location": "New_York",
+    "progLang": ["Java","C-sharp"],
+    "technologies": ["Web_Services", "Back_End"]
+  },
+  {
+    "companyName": "IBM",
+    "position": "DBA",
+    "salary": 100000,
+    "startDate": "2019-08-26",
+    "location": "New_York",
+    "progLang": ["Oracle_R12"],
+    "technologies": ["Database"]
+  }
+
+]
